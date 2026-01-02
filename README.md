@@ -1,10 +1,10 @@
-#AI FloodGuard: Hệ thống cảnh báo ngập lụt đô thị thông minh
+# AI FloodGuard: Hệ thống cảnh báo ngập lụt đô thị thông minh
 Dự án môn học Xây dựng Trí tuệ Nhân tạo (Building AI course project)
 
-##Summary
+## Summary
 AI FloodGuard là một hệ thống sử dụng học máy để dự đoán các điểm ngập lụt trong thành phố dựa trên dữ liệu lượng mưa, triều cường và hạ tầng thoát nước theo thời gian thực. Hệ thống giúp người dân tìm lộ trình an toàn và hỗ trợ chính quyền điều tiết giao thông hiệu quả hơn.
 
-##Background
+## Background
 Vấn đề: Ngập lụt đô thị do biến đổi khí hậu và bê tông hóa đang trở thành vấn đề nghiêm trọng tại các thành phố lớn (như TP.HCM, Hà Nội).
 
 Tần suất: Xảy ra thường xuyên mỗi khi có mưa lớn hoặc triều cường, gây thiệt hại về tài sản và ách tắc giao thông.
@@ -31,7 +31,7 @@ Dữ liệu cảm biến mực nước tại các cống thoát nước.
 
 Dữ liệu từ người dùng báo cáo trực tiếp qua ứng dụng (Crowdsourcing).
 
-##Kỹ thuật AI:
+## Kỹ thuật AI:
 
 Sử dụng Linear Regression (Hồi quy tuyến tính) để dự đoán mực nước dựa trên lượng mưa.
 
@@ -44,12 +44,12 @@ Hạn chế: Hệ thống phụ thuộc lớn vào mật độ cảm biến mự
 
 Sai số: AI có thể dự đoán sai nếu hệ thống thoát nước vừa được cải tạo mà dữ liệu chưa cập nhật kịp.
 
-##What next?
+## What next?
 Tích hợp trực tiếp vào các ứng dụng bản đồ phổ biến như Google Maps hoặc Apple Maps.
 
 Cần sự hợp tác từ Sở Giao thông Vận tải để truy cập dữ liệu camera giao thông nhằm phân tích hình ảnh ngập lụt tự động bằng Computer Vision.
 
-###Acknowledgments
+### Acknowledgments
 Cảm ơn khóa học Elements of AI / Building AI của Đại học Helsinki và Reaktor.
 
 Truyền cảm hứng từ các dự án dữ liệu mở về đô thị thông minh.
